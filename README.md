@@ -7,6 +7,10 @@ git clone https://github.com/caxapyk/gatsbyjs-docker
 cd gatsbyjs-docker
 docker build --rm --no-cache -t gatsby .
 ```
+or just pull from Docker Hub:
+```sh
+docker pull caxapyk/gatsbyjs-docker
+```
 
 ## Usage
 ### Create a new site
